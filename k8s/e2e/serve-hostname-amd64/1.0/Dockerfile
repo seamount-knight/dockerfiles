@@ -1,0 +1,2 @@
+From gcr.io/kubernetes-e2e-test-images/serve-hostname-amd64:1.0
+MAINTAINER xuehaishan
