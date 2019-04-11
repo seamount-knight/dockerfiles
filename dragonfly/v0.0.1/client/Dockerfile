@@ -7,6 +7,7 @@ WORKDIR /app
 COPY . /app
 
 RUN tar xzvf df-client.linux-amd64.tar.gz -C /usr/local/bin
+RUN cp dragonfly.conf /etc/
 
 ENV PATH="/usr/local/bin/df-client:${PATH}"
 
